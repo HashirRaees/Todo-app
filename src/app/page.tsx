@@ -39,7 +39,7 @@ export default function Page() {
           id="todo"
           value={todoName}
           onChange={(e) => handletodoName(e)}
-          className="block leading-10 rounded-xl sm:w-96  px-4 py-2" 
+          className="block leading-10 rounded-xl sm:w-96 text-black px-4 py-2" 
         />
         <div className="space-y-5 flex items-center flex-col">
           <button
