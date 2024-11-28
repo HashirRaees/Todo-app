@@ -21,7 +21,7 @@ export default function Page() {
     settodolist(todolist.filter((_, i) => i !== index)); // Filter out the todo by index
   };
   return (
-    <section className="bg-black min-h-svh">
+    <section className="bg-gray-900 min-h-svh">
       <div className="bg-purple-500 h-20 flex items-center justify-center flex-row">
         <h1 className="text-white font-bold sm:text-4xl sm:font-bold text-2xl cursor-default">
           Hashir Raees
@@ -31,7 +31,7 @@ export default function Page() {
         </span>
       </div>
 
-      <div className="sm:mt-20 bg-black flex items-center justify-center min-h-80 flex-col">
+      <div className="sm:mt-24 mt-20 bg-gray-900 flex items-center justify-center min-h-80 flex-col">
         <input
           type="text"
           placeholder="Enter task"
